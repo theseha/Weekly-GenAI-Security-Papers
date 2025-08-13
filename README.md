@@ -71,12 +71,14 @@ python main.py
 스크립트 실행 시 arXiv에서 논문을 검색하고, MongoDB에 저장 후 요약을 생성합니다.
 중요도 평가를 거쳐 상위 10개의 논문이 HTML 이메일로 발송됩니다.
 📂 프로젝트 구조
+```
 TEXT
 .
 ├── main.py                # 메인 실행 스크립트
 ├── requirements.txt       # 필요한 Python 패키지 목록
 ├── .env                   # 환경 변수 파일 (Git에 업로드 금지)
 └── README.md              # 프로젝트 설명 문서
+```
 🛠 사용 기술
 Python 3.9+
 Azure OpenAI API
@@ -86,10 +88,13 @@ Gmail SMTP
 📧 결과 예시
 이메일에는 다음과 같이 논문 제목(영문)과 한글 요약이 포함됩니다.
 
+```
 TEXT
 제목: Selective KV-Cache Sharing to Mitigate Timing Side-Channels in LLM Inference
 - 글로벌 KV-캐시 공유는 LLM 추론 속도를 높이는 핵심 최적화 기법입니다.
 - 그러나 새로운 타이밍 사이드 채널 공격 가능성을 노출합니다.
 - 기존 방어 기법은 성능 저하 문제로 대규모 배포에 부적합합니다.
+```
+
 📜 라이선스
 이 프로젝트는 MIT 라이선스를 따릅니다.
