@@ -51,7 +51,7 @@ AZURE_OPENAI_DEPLOYMENT=your_deployment_name
 
 # MongoDB 설정
 ```
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net
 MONGO_DB=your_database_name
 MONGO_COLLECTION=your_collection_name
 ```
