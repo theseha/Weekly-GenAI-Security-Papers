@@ -85,6 +85,7 @@ Azure OpenAI API
 MongoDB
 arXiv API
 Gmail SMTP
+
 📧 결과 예시
 이메일에는 다음과 같이 논문 제목(영문)과 한글 요약이 포함됩니다.
 
