@@ -42,25 +42,32 @@ pip install -r requirements.txt
 
 ENV
 # Azure OpenAI 설정
+```
 AZURE_OPENAI_API_KEY=your_azure_openai_api_key
 AZURE_OPENAI_API_VERSION=2024-06-01
 AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/
 AZURE_OPENAI_DEPLOYMENT=your_deployment_name
+```
 
 # MongoDB 설정
+```
 MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net
 MONGO_DB=your_database_name
 MONGO_COLLECTION=your_collection_name
+```
 
 # 이메일 발송 설정 (Gmail)
+```
 GOOG_APP_EMAIL=your_email@gmail.com
 GOOG_APP_PASSKEY=your_google_app_password
 EMAIL_LIST=recipient1@example.com,recipient2@example.com
+```
 참고: Gmail 발송을 위해서는 Google App Password를 발급받아야 합니다.
 
 🚀 실행 방법
-BASH
+```BASH
 python main.py
+```
 스크립트 실행 시 arXiv에서 논문을 검색하고, MongoDB에 저장 후 요약을 생성합니다.
 중요도 평가를 거쳐 상위 10개의 논문이 HTML 이메일로 발송됩니다.
 📂 프로젝트 구조
