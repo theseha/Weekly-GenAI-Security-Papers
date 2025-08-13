@@ -24,14 +24,16 @@
 ```bash
 git clone https://github.com/your-username/weekly-ai-security-papers.git
 cd weekly-ai-security-papers
-
+```
 ### 2. 가상환경 생성 및 활성화
-BASH
+
+```BASH
 python -m venv venv
 source venv/bin/activate   # macOS / Linux
 venv\Scripts\activate      # Windows
+```
 
-###3. 필수 패키지 설치
+### 3. 필수 패키지 설치
 BASH
 pip install -r requirements.txt
 ⚙️ 환경 변수 설정
