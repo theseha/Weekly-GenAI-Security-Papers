@@ -34,9 +34,10 @@ venv\Scripts\activate      # Windows
 ```
 
 ### 3. 필수 패키지 설치
-BASH
+```BASH
 pip install -r requirements.txt
 ⚙️ 환경 변수 설정
+```
 .env 파일을 프로젝트 루트에 생성하고 아래 내용을 채워주세요.
 
 ENV
