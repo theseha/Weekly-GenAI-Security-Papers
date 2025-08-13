@@ -4,7 +4,8 @@
 **Azure OpenAI**를 이용해 한글로 3개의 핵심 Bullet Point로 요약한 뒤,  
 이메일로 발송하는 자동화 스크립트입니다.
 
-원문(영어)는 여기서 확인 가능하고, 요약 방식 및 검색 키워드 등 일부 수정하였습니다. (https://github.com/9b/applied-gai-secnews/blob/main/README.md)
+원문(영어)는 여기서 확인 가능하고, 요약 방식 및 검색 키워드 등 일부 수정하였습니다. 
+(https://github.com/9b/applied-gai-secnews/blob/main/README.md)
 
 ---
 
