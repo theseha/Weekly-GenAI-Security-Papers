@@ -68,7 +68,7 @@ EMAIL_LIST=recipient1@example.com,recipient2@example.com
 
 🚀 실행 방법
 ```BASH
-python main.py
+python genaisecuritynews.py
 ```
 스크립트 실행 시 arXiv에서 논문을 검색하고, MongoDB에 저장 후 요약을 생성합니다.
 중요도 평가를 거쳐 상위 10개의 논문이 HTML 이메일로 발송됩니다.
@@ -76,7 +76,7 @@ python main.py
 ```
 TEXT
 .
-├── main.py                # 메인 실행 스크립트
+├── genaisecuritynews.py   # 메인 실행 스크립트
 ├── requirements.txt       # 필요한 Python 패키지 목록
 ├── .env                   # 환경 변수 파일 (Git에 업로드 금지)
 └── README.md              # 프로젝트 설명 문서
