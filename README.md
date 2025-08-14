@@ -1,3 +1,5 @@
+📅 2025.08.13
+
 # 📄 Weekly AI Security Papers Summary
 
 이 프로젝트는 **arXiv**에서 최신 AI 보안 관련 논문을 자동으로 수집하고,  
